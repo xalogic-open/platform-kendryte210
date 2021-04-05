@@ -60,8 +60,7 @@
         "framework-kendryte-standalone-sdk": {
             "type": "framework",
             "optional": true,
-            "owner": "platformio",
-            "version": "~0.5.6"
+            "version": "https://github.com/xalogic-open/kendryte-standalone-sdk.git#XA-V0.5.7"
         },
         "framework-kendryte-freertos-sdk": {
             "type": "framework",
@@ -72,14 +71,12 @@
         "tool-kflash-kendryte210": {
             "type": "uploader",
             "optional": true,
-            "owner": "platformio",
-            "version": "~0.9.1"
+            "version": "https://github.com/xalogic-open/kflash.py.git"
         },
         "tool-openocd-kendryte": {
             "type": "uploader",
             "optional": true,
-            "owner": "platformio",
-            "version": "^1.203.0"
+            "version": "https://github.com/xalogic-open/tool-openocd-kendryte.git#47a227717756c8c7c0284abe2ecc83f1c363b46d"
         }
     }
 }

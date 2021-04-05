@@ -1,0 +1,30 @@
+{
+    "build": {
+        "extra_flags": "",
+        "f_cpu": "400000000L",
+        "mcu": "K210",
+        "hwids": [
+            "0x1A86",
+            "0x7523"
+        ],
+        "variant": "xalogic_k210_ai_accelerator",
+        "board_def": "BOARD_XALOGIC_K210_AI_ACCELERATOR"
+    },
+    "frameworks": [
+        "kendryte-standalone-sdk"
+    ],
+    "platforms": ["kendryte210"],
+    "name": "XaLogic K210 AI Accelerator",
+    "os": "raspian",
+    "upload": {
+        "maximum_ram_size": 6291456,
+        "maximum_size": 16777216,
+        "protocol": "kflash",
+        "port": "/dev/ttyS0",
+        "burn_tool": "xapiz",
+        "require_upload_port": true,
+        "speed": 1152000
+    },
+    "url": "https://www.xalogic.com/",
+    "vendor": "XaLogic"
+}

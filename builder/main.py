@@ -92,6 +92,11 @@ upload_source = target_firm
 upload_actions = []
 
 if upload_protocol == "kflash":
+    try :
+        if board.get("os") == "raspian":
+            env.Execute("$PYTHONEXE -m pip install gpiozero pigpio")
+    except:
+        pass
 
     if not env.subst("$UPLOAD_PORT") and board.get("upload.burn_tool") == "goE" : #use kflash autoselect port
         port_str = "DEFAULT"
