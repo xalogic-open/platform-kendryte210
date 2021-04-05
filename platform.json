@@ -71,7 +71,7 @@
         "tool-kflash-kendryte210": {
             "type": "uploader",
             "optional": true,
-            "version": "https://github.com/xalogic-open/kflash.py.git"
+            "version": "https://github.com/xalogic-open/kflash.py.git#95e6c5a71a9c925cbdc2bad2b16d96450d7b36b0"
         },
         "tool-openocd-kendryte": {
             "type": "uploader",
