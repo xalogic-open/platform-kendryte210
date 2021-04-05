@@ -76,7 +76,7 @@
         "tool-openocd-kendryte": {
             "type": "uploader",
             "optional": true,
-            "version": "https://github.com/xalogic-open/tool-openocd-kendryte.git#47a227717756c8c7c0284abe2ecc83f1c363b46d"
+            "version": "https://github.com/xalogic-open/tool-openocd-kendryte.git#ec4e46f895004d877de4a48d2039033fdabce54a"
         }
     }
 }
